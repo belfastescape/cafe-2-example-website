@@ -23,7 +23,6 @@ export function Hero() {
           <a href={h.ghostCta.href} className="btn btn--ghost">{h.ghostCta.label}</a>
         </div>
       </div>
-      <div className="scroll-cue"><span>Scroll</span><i /></div>
     </section>
   );
 }
