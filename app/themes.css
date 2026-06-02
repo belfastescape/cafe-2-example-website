@@ -1,0 +1,49 @@
+/* ============================================================
+   Little Nook — design directions
+   Switch via  <html data-direction="linen | sage">
+   ============================================================ */
+
+/* ---------- 1. LINEN & ESPRESSO ----------------------------
+   Warm, editorial, calm. Sun-bleached linen, espresso ink,
+   an elegant high-contrast serif. The "considered neighbourhood
+   cafe" default. */
+[data-direction="linen"] {
+  --bg: #F3EDDF;
+  --surface: #FBF6EC;
+  --ink: #2A2017;
+  --muted: #786551;
+  --line: rgba(42,32,23,.14);
+  --accent: #BD5B34;
+  --on-accent: #FBF6EC;
+  --font-display: var(--font-instrument, "Instrument Serif", Georgia, "Times New Roman", serif);
+  --font-body: var(--font-hanken, "Hanken Grotesk", system-ui, -apple-system, sans-serif);
+  --label-font: var(--font-hanken, "Hanken Grotesk", system-ui, sans-serif);
+  --label-transform: uppercase;
+  --display-weight: 400;
+  --display-tracking: -0.005em;
+  --shadow: 0 26px 60px -34px rgba(42,32,23,.5);
+}
+
+/* ---------- 2. SAGE GARDEN ---------------------------------
+   Plant-forward, fresh, botanical. Pale green-white, deep
+   forest ink, a soft literary serif with optical italics and
+   generous round corners. */
+[data-direction="sage"] {
+  --bg: #EAEEE1;
+  --surface: #F7FAEF;
+  --ink: #25302A;
+  --muted: #5B6B5A;
+  --line: rgba(37,48,42,.14);
+  --accent: #5E7A43;
+  --on-accent: #F7FAEF;
+  --font-display: var(--font-newsreader, "Newsreader", Georgia, serif);
+  --font-body: var(--font-figtree, "Figtree", system-ui, -apple-system, sans-serif);
+  --label-font: var(--font-figtree, "Figtree", system-ui, sans-serif);
+  --label-transform: uppercase;
+  --display-weight: 500;
+  --display-tracking: 0;
+  --radius: 16px;
+  --shadow: 0 26px 60px -32px rgba(37,48,42,.5);
+}
+[data-direction="sage"] .quote blockquote,
+[data-direction="sage"] .rev p { font-style: italic; }
