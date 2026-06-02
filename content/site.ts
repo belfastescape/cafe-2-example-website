@@ -1,6 +1,6 @@
 export const site = {
   name: "Little Nook",
-  tagline: "The kind of place you'll come back to.",
+  tagline: "The kind of place that you will want to come back to.",
   metaDescription:
     "Slow coffee and the best banana bread you've had this year. Open from 7.30, every day.",
 
@@ -13,7 +13,7 @@ export const site = {
 
   hero: {
     eyebrow: "Open daily · 7.30 — late",
-    heading: "The kind of place you'll come back to.",
+    heading: "The kind of place that you will want to come back to.",
     sub: "Slow coffee and the best banana bread you've had this year. Open from 7.30, every day.",
     primaryCta: { label: "See the menu", href: "#menu" },
     ghostCta: { label: "Find us today", href: "#visit" },
